@@ -1,0 +1,197 @@
+header, footer {
+    background-color: #89AC76;
+    color: white;
+    height: auto;
+}
+.carousele div img {
+    width: 300px;
+}
+#menu1{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: 10;
+    }
+    #menu1 ul{
+    position: relative;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    list-style: none;
+    }
+    #menu1 > ul::after{
+    display: block;
+    width: 100%;
+    height: 0px;
+    clear: both;
+    content: " ";
+    }
+    #menu1 ul li{
+    position: relative;
+    display: block;
+    float: left;
+    width: auto;
+    height: auto;
+    }
+    #menu1 ul li a{
+    display: block;
+    padding: 9px 25px 0px 25px;
+    font-size: 25px;
+    line-height: 1.3em;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 36px;
+    box-sizing: border-box;
+    color: white;
+    }
+    
+    #menu1 ul li ul{
+    position: absolute;
+    top: 36px;
+    left: 0px;
+    display: none;
+    width: 200px;
+    background-color: #607853;
+
+    }
+    
+    #menu1 ul li:hover ul{
+    display: block;
+    }
+    
+    #menu1 ul li ul li{
+    float: none;
+    width: 100%;
+    }
+    
+    #menu1 ul li ul li a{
+    display: block;
+    text-transform: none;
+    height: auto;
+    padding: 7px 25px;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 1px solid #ffffff;
+    color: white;
+    }
+    #menu1 ul li ul li:first-child a{
+    border-top: 0px;
+    }
+
+    
+#site:hover {
+    background-color: #abd594;
+}
+#site:active {
+    background-color: #47583d;
+}
+#site {
+    background-color: #89AC76;
+    border: none;
+}
+footer {
+    font-size: 30px;
+}
+.string {
+    display: flex;
+}
+.aboutlangs {
+    background-color: white;
+    width: 50%;
+    -webkit-box-shadow: 14px 0px 26px -5px rgba(0,0,0,0.66);
+    -moz-box-shadow: 14px 0px 26px -5px rgba(0,0,0,0.66);
+    box-shadow: 14px 0px 26px -5px rgba(0,0,0,0.66);
+    border-radius: 24px 24px 24px 24px;
+    -moz-border-radius: 24px 24px 24px 24px;
+    -webkit-border-radius: 24px 24px 24px 24px;
+    border: 0px solid #000000;
+    margin: 10px;
+}
+main p {
+    font: bold;
+    font-size: 26px;
+    font-family: sans-serif;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Python img, .Php img, .Cpp img, .JS img, .CSharp img {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.Python, .Php, .Cpp, .JS, .CSharp {
+    background-color: white;
+    width: 50%;
+    -webkit-box-shadow: 14px 0px 26px -5px rgba(0,0,0,0.66);
+    -moz-box-shadow: 14px 0px 26px -5px rgba(0,0,0,0.66);
+    box-shadow: 14px 0px 26px -5px rgba(0,0,0,0.66);
+    border-radius: 24px 24px 24px 24px;
+    -moz-border-radius: 24px 24px 24px 24px;
+    -webkit-border-radius: 24px 24px 24px 24px;
+    border: 0px solid #000000;
+    margin: 10px;
+}
+#p {
+    font-family: Tahoma;
+    font-size: 25px;
+}
+#aPod {
+    font-size: 20px;
+}
+footer a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.contacts {
+    display: flex;
+}
+
+#phone {
+    margin-right: 7px;
+}
+#gmail {
+    margin-right: 7px;
+}
+#telega {
+    margin-right: 7px;
+}
+.wlitb {
+    background-color: white;
+    width: 50%;
+    -webkit-box-shadow: 14px 0px 26px -5px rgba(0,0,0,0.66);
+    -moz-box-shadow: 14px 0px 26px -5px rgba(0,0,0,0.66);
+    box-shadow: 14px 0px 26px -5px rgba(0,0,0,0.66);
+    border-radius: 24px 24px 24px 24px;
+    -moz-border-radius: 24px 24px 24px 24px;
+    -webkit-border-radius: 24px 24px 24px 24px;
+    border: 0px solid #000000;
+}
+.wlitb ol li{
+    border: 1px solid black;
+    font-family: Tahoma;
+    font-size: 25px;
+}
+.wlitb ol{
+    border: 1px solid black;
+}
+#top1 {
+    color: gold;
+}
+#top2 {
+    color: silver;
+}
+#top3 {
+    color: #b87333;
+}
+.fas {
+    display: flex;
+}
